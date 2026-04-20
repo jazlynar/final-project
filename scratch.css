@@ -1,0 +1,89 @@
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: slateblue;
+  color: mistyrose;
+  text-align: center;
+  padding: 40px 20px;
+  letter-spacing: 1px;
+}
+
+/* Navigation Bar */
+.nav {
+  background-color: lightpink;
+  padding: 12px;
+  text-align: center;
+}
+
+.nav a {
+  color: #f4f4f4;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: deeppink;
+  transform: scale(1.1);
+}
+
+/* Content Sections */
+.box {
+  background: white;
+  margin: 40px auto;
+  padding: 25px;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+/* Headings */
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: hsl(264, 72%, 72%);
+  margin-bottom: 15px;
+}
+
+/* Image Styling */
+img {
+  width: 100%;
+  max-width: 450px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Video & Tableau */
+iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f3c88;
+  color: white;
+  margin-top: 40px;
+}

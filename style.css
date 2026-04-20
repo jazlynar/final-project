@@ -1,0 +1,79 @@
+/* GENERAL PAGE STYLING */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* HERO SECTION */
+.hero {
+    font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to right, #e988d1, #f0b4d6);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+    font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+    font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* ABOUT SECTION */
+.container {
+    font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* IMAGE STYLING */
+img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+/* NAVBAR LINKS */
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #f165de !important;
+}
+
+/* FOOTER */
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+  background-color: #2c082f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
